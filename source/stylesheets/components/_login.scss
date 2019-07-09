@@ -1,0 +1,42 @@
+//register
+
+//checkbox點擊樣式
+.custom-control-label::before {
+    background-color: $lighter;
+    border: 0px;
+
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: $white;
+    border:1px solid $white;
+    background: $green;
+    box-shadow: none;
+}
+
+
+
+.text-list-conect{
+    color: #8DA291;
+}
+
+.btn-brand-light{
+    background-color: $white;
+    border-color: $lighter;
+    border-radius: 0;
+    &:hover{
+    background-color: rgb(235, 235, 235);
+    border-color: rgb(231, 231, 231);
+    }
+}
+
+
+.form-square .form-square-icon-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.input-bg-light{
+    background-color: $lighter!important;
+}
